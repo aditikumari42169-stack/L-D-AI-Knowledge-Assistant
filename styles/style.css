@@ -1,3 +1,99 @@
 .stApp {
     background-color: rgb(24, 24, 24) !important;
 }
+
+/* ==============================
+   HERO SECTION
+============================== */
+
+.hero{
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    padding:45px;
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+    box-shadow:0 0 30px rgba(0,0,0,.35);
+
+}
+
+.hero h1{
+
+    color:white;
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+}
+
+.hero p{
+
+    color:#60a5fa;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.hero span{
+
+    color:#cbd5e1;
+
+    font-size:17px;
+
+}
+
+/* ===========================
+   TEXT COLORS
+=========================== */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+
+/* Paragraphs */
+p {
+    color: #ffffff !important;
+}
+
+/* Labels */
+label {
+    color: #ffffff !important;
+}
+
+/* Streamlit Markdown */
+.stMarkdown {
+    color: #ffffff !important;
+}
+
+/* General Text */
+div, span {
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero h1 {
+    color: #ffffff !important;
+}
+
+.hero p {
+    color: #ffffff !important;
+}
+
+.hero span {
+    color: #ffffff !important;
+}

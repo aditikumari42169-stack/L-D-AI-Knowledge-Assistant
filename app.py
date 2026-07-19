@@ -15,8 +15,21 @@ st.set_page_config(
 
 load_css()
 
-st.title("📚 L&D AI Knowledge Assistant")
-st.write("Ask questions from the organization's knowledge base.")
+st.markdown("""
+<div class="hero">
+
+<h1>📚 L&D AI Knowledge Assistant</h1>
+
+<p>
+Your Intelligent Learning Companion
+</p>
+
+<span>
+Search SOPs • Policies • Training • FAQs
+</span>
+
+</div>
+""", unsafe_allow_html=True)
 
 # Build Index Button
 if st.button("Build Knowledge Base"):
