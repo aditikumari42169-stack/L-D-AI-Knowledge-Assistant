@@ -3,11 +3,17 @@ import streamlit as st
 
 from rag import build_index, ask_ai
 
+def load_css():
+    with open("styles/style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="L&D AI Knowledge Assistant",
     page_icon="📚",
     layout="wide"
 )
+
+load_css()
 
 st.title("📚 L&D AI Knowledge Assistant")
 st.write("Ask questions from the organization's knowledge base.")
@@ -36,3 +42,4 @@ if st.button("Ask AI"):
 
         st.subheader("Answer")
         st.write(answer)
+
